@@ -10,7 +10,7 @@ import UIKit
 
 class MainVC: UITableViewController {
 
-    var itemArray = ["Mike", "Eggs", "Demogorgon"]
+    var itemArray = Array<String>()//["Mike", "Eggs", "Demogorgon"]
     let defaults = UserDefaults.standard
 //    var itemArray = []
     override func viewDidLoad() {
