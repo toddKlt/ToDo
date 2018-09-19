@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0936408821525C960044A3B8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936408721525C960044A3B8 /* Data.swift */; };
 		095EBB50213EC83800FAA2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095EBB4F213EC83800FAA2B1 /* AppDelegate.swift */; };
 		095EBB52213EC83800FAA2B1 /* ToDoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095EBB51213EC83800FAA2B1 /* ToDoVC.swift */; };
 		095EBB55213EC83800FAA2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095EBB53213EC83800FAA2B1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0936408721525C960044A3B8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		095EBB4C213EC83800FAA2B1 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095EBB4F213EC83800FAA2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		095EBB51213EC83800FAA2B1 /* ToDoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoVC.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		095EBB662141141B00FAA2B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0936408721525C960044A3B8 /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FB2EA02151115C00D2FA0D /* CategoryVC.swift in Sources */,
+				0936408821525C960044A3B8 /* Data.swift in Sources */,
 				095EBB52213EC83800FAA2B1 /* ToDoVC.swift in Sources */,
 				095EBB58213EC83800FAA2B1 /* ToDo.xcdatamodeld in Sources */,
 				095EBB50213EC83800FAA2B1 /* AppDelegate.swift in Sources */,
